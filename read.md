@@ -1,0 +1,10 @@
+# update the env file base on your service name like
+PORT=3000
+NODE_ENV=development
+IDENTITY_SERVICE_URL=http://identity-service:3001
+POST_SERVICE_URL=http://post-service:3002
+MEDIA_SERVICE_URL=http://media-service:3003
+SEARCH_SERVICE_URL=http://localhost:3004
+REDIS_URL=redis://redis:6379
+REBBITMQ_URL=rabbitmq://rabbitmq:5672
+JWT_SECRET=JWT_SECRET
